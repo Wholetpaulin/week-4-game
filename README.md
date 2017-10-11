@@ -8,7 +8,7 @@ This is a simple overwatch themed RPG I threw together one night for a bootcamp 
 
 1. Select the character you would like to fight with by clicking thier picture.
 
-2. Selectyour opponent by clicking thier picture.
+2. Select your opponent by clicking thier picture.
 
 3. Mash the fight button.
 
