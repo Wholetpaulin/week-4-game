@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Overwatch RPG</title>
+
+	<!-- Added a link to Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Stalinist+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+</head>
+<body>
+
+
+    <div>
+		<h3>Overwatch RPG</h3>
+		
+      <!-- Here we have our start button -->
+		<div class = "yourCharacter">
+			<h4>Your Character: </h4>
+			<!--This is where your Character will go-->
+			<div class  = "yourWinston icon">
+				<div class = "winstonHealth"></div>
+				<img src = "https://overwatch.gamepedia.com/media/overwatch.gamepedia.com/thumb/b/b8/Winston-portrait.png/350px-Winston-portrait.png?version=2c92925275b325ed52b284af56749d5e"></img>
+			</div>
+			<div class = "yourTracer icon">
+				<div class = "tracerHealth"></div>
+				<img src = "https://vignette2.wikia.nocookie.net/overwatch/images/8/86/Tracer_portrait.png/revision/latest?cb=20160429041307"></img>
+			</div>
+			<div class  = "yourReaper icon">
+				<div class = "reaperHealth"></div>
+				<img src = "https://overwatch.gamepedia.com/media/overwatch.gamepedia.com/thumb/7/74/Reaper-portrait.png/272px-Reaper-portrait.png?version=ac1a064e0b871e8306fd7038ee05e873"></img>
+			</div>
+			<div class  = "yourBastion icon">
+				<div class = "bastionHealth"></div>
+				<img src = "https://vignette.wikia.nocookie.net/overwatch/images/6/6a/Bastion_portrait.png/revision/latest/scale-to-width-down/350?cb=20160429042023"></img>
+			</div>
+			<br><br><br><br><br>
+		</div>
+
+
+		<div class = "enemy">
+			<!--This is where the enemy/enemies will go-->
+			<h4>Enemies available to attack:</h4>
+			<div class  = "enemyWinston icon">
+				<div class = "winstonHealth"></div>
+				<img src = "https://overwatch.gamepedia.com/media/overwatch.gamepedia.com/thumb/b/b8/Winston-portrait.png/350px-Winston-portrait.png?version=2c92925275b325ed52b284af56749d5e"></img>
+			</div>
+			<div class  = "enemyTracer icon">
+				<div class = "tracerHealth"></div>
+				<img src = "https://vignette2.wikia.nocookie.net/overwatch/images/8/86/Tracer_portrait.png/revision/latest?cb=20160429041307"></img>
+			</div>
+			<div class  = "enemyReaper icon">
+				<div class = "reaperHealth"></div>
+				<img src = "https://overwatch.gamepedia.com/media/overwatch.gamepedia.com/thumb/7/74/Reaper-portrait.png/272px-Reaper-portrait.png?version=ac1a064e0b871e8306fd7038ee05e873"></img>
+			</div>
+			<div class  = "enemyBastion icon">
+				<div class = "bastionHealth"></div>
+				<img src = "https://vignette.wikia.nocookie.net/overwatch/images/6/6a/Bastion_portrait.png/revision/latest/scale-to-width-down/350?cb=20160429042023"></img>
+			</div>
+			<!--can hide these headings will -->
+			<br><br><br><br><br>
+		</div>
+
+
+		<div class = "fight">
+			<!--This is where the fight button and the defending enemy will go-->
+			<br>
+			<button class="btn btn-primary btn-sm"><h1></h1>Fight</button>
+		</div>
+		<div class = "chatBox">
+			<!--This is where the messages will go.-->
+		</div>
+    </div>
+
+  
+	<!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src = "assets/javascript/rpg.js"></script>
+
+
+</body>
+</html>
